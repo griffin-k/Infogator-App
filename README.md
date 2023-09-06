@@ -3,10 +3,10 @@
 </div>
 <p align="center"> Discover top tourist attractions and destinations with Infogator </p>
 
-##About
+## ABOUT
 <p>Discover top tourist attractions and destinations with Infogator  provide proven recommendations, detailed information about each place, and even highlight the famous foods of each city to enhance your travel experience</p>
 
-##PROJECT SPECIFICATION
+## PROJECT SPECIFICATION
 -Tourist Places: The app should allow users to select a city and view a list of its top tourist attractions.
 -Famous Foods: Users should be able to explore famous foods specific to the selected city.
 -City Selection: Provide an intuitive user interface for selecting a city of interest.
