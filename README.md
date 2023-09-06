@@ -7,14 +7,16 @@
 <p>Discover top tourist attractions and destinations with Infogator  provide proven recommendations, detailed information about each place, and even highlight the famous foods of each city to enhance your travel experience</p>
 
 ## PROJECT SPECIFICATION
--Tourist Places: The app should allow users to select a city and view a list of its top tourist attractions.
--Famous Foods: Users should be able to explore famous foods specific to the selected city.
--City Selection: Provide an intuitive user interface for selecting a city of interest.
--Detailed Information: Display detailed information about each tourist attraction, including descriptions, images, and location details.
--Food Recommendations: Offer recommendations for famous dishes or foods to try in each city.
--Attraction Suggestions: Suggest other popular attractions or activities within the selected city.
--User-Friendly Interface: Design a user-friendly and aesthetically pleasing UI for ease of navigation.
--Offline Access: Allow users to access previously viewed information offline.
+<ol>
+<li>Tourist Places: The app should allow users to select a city and view a list of its top tourist attractions.</li>
+<li>Famous Foods: Users should be able to explore famous foods specific to the selected city.</li>
+<li>City Selection: Provide an intuitive user interface for selecting a city of interest.</li>
+<li>Detailed Information: Display detailed information about each tourist attraction, including descriptions, images, and location details.</li>
+<li>Food Recommendations: Offer recommendations for famous dishes or foods to try in each city.</li>
+<li>Attraction Suggestions: Suggest other popular attractions or activities within the selected city.</li>
+<li>User-Friendly Interface: Design a user-friendly and aesthetically pleasing UI for ease of navigation.</li>
+<li>Offline Access: Allow users to access previously viewed information offline.</li>
+</ol>
 
 
 
