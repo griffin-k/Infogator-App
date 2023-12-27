@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CityDetails">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="1000dp"
+        android:paddingBottom="40dp">
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="32dp"
+            android:fontFamily="@font/nunito_sans_extrabold"
+            android:text="FAMOUS FOOD DISHES"
+            android:textColor="#1976D2"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/citydetails_place2image" />
+
+        <View
+            android:id="@+id/divider3"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="24dp"
+            android:background="?android:attr/listDivider"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/textView2"
+            app:layout_constraintTop_toBottomOf="@+id/textView18" />
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/citydetails_food1image"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="24dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/badshahi"
+            app:layout_constraintStart_toStartOf="@+id/divider2"
+            app:layout_constraintTop_toBottomOf="@+id/divider3"
+            app:shapeAppearanceOverlay="@style/ShapeableImageView_ALLRoundedCorners" />
+
+        <TextView
+            android:id="@+id/citydetails_food1name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:fontFamily="@font/nunito_sans_extrabold"
+            android:text="Description"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            app:layout_constraintStart_toEndOf="@+id/citydetails_food1image"
+            app:layout_constraintTop_toTopOf="@+id/citydetails_food1image" />
+
+        <TextView
+            android:id="@+id/citydetails_place1description"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="24dp"
+            android:fontFamily="@font/nunito_sans_bold"
+            android:text="Description here"
+            android:textColor="#CC000000"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="@+id/citydetails_place1image"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/citydetails_place1name"
+            app:layout_constraintTop_toBottomOf="@+id/citydetails_place1name" />
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/citydetails_food2image"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="24dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/badshahi"
+            app:layout_constraintStart_toStartOf="@+id/divider2"
+            app:layout_constraintTop_toBottomOf="@+id/citydetails_food1image"
+            app:shapeAppearanceOverlay="@style/ShapeableImageView_ALLRoundedCorners" />
+
+        <TextView
+            android:id="@+id/citydetails_food2name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:fontFamily="@font/nunito_sans_extrabold"
+            android:text="Description"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            app:layout_constraintStart_toEndOf="@+id/citydetails_food2image"
+            app:layout_constraintTop_toTopOf="@+id/citydetails_food2image" />
+
+        <TextView
+            android:id="@+id/citydetails_food2description"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="24dp"
+            android:fontFamily="@font/nunito_sans_bold"
+            android:text="Description here"
+            android:textColor="#CC000000"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="@+id/citydetails_food2image"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/citydetails_food2image"
+            app:layout_constraintTop_toBottomOf="@+id/citydetails_food2name" />
+
+        <TextView
+            android:id="@+id/citydetails_place2description"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="24dp"
+            android:fontFamily="@font/nunito_sans_bold"
+            android:text="Description here"
+            android:textColor="#CC000000"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="@+id/citydetails_place2image"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/citydetails_place1name"
+            app:layout_constraintTop_toBottomOf="@+id/citydetails_place2name" />
+
+        <TextView
+            android:id="@+id/citydetails_place2name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:fontFamily="@font/nunito_sans_extrabold"
+            android:text="Description"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            app:layout_constraintStart_toEndOf="@+id/citydetails_place2image"
+            app:layout_constraintTop_toTopOf="@+id/citydetails_place2image" />
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/citydetails_place2image"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="32dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/badshahi"
+            app:layout_constraintStart_toStartOf="@+id/divider2"
+            app:layout_constraintTop_toBottomOf="@id/citydetails_place1image"
+            app:shapeAppearanceOverlay="@style/ShapeableImageView_ALLRoundedCorners" />
+
+        <TextView
+            android:id="@+id/citydetails_place1name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:fontFamily="@font/nunito_sans_extrabold"
+            android:text="Description"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            app:layout_constraintStart_toEndOf="@+id/citydetails_place1image"
+            app:layout_constraintTop_toTopOf="@+id/citydetails_place1image" />
+
+        <TextView
+            android:id="@+id/citydetails_food1description"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="24dp"
+            android:fontFamily="@font/nunito_sans_bold"
+            android:text="Description here"
+            android:textColor="#CC000000"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="@+id/citydetails_food1image"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/citydetails_place1name"
+            app:layout_constraintTop_toBottomOf="@+id/citydetails_food1name" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="32dp"
+            android:fontFamily="@font/nunito_sans_extrabold"
+            android:text="TOURIST ATTRACTIONS"
+            android:textColor="#1976D2"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/citydetails_getlocationbtn" />
+
+        <View
+            android:id="@+id/divider2"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="24dp"
+            android:background="?android:attr/listDivider"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/textView2"
+            app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+        <TextView
+            android:id="@+id/citydetails_besttime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:fontFamily="@font/nunito_sans_extrabold"
+            android:text="October to March"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="@+id/divider"
+            app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/nunito_sans_bold"
+            android:text="Best Time to Visit"
+            android:textColor="#CC000000"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="@+id/divider"
+            app:layout_constraintTop_toBottomOf="@+id/citydetails_besttime" />
+
+        <TextView
+            android:id="@+id/citydetails_tripduration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:fontFamily="@font/nunito_sans_extrabold"
+            android:text="2 to 3 Days"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="@+id/divider"
+            app:layout_constraintTop_toBottomOf="@+id/citydetails_description" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/nunito_sans_bold"
+            android:text="Approx. Trip Duration"
+            android:textColor="#CC000000"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="@+id/divider"
+            app:layout_constraintTop_toBottomOf="@+id/citydetails_tripduration" />
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/citydetails_image"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/badshahi"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:shapeAppearanceOverlay="@style/ShapeableImageView_BOTTOMRoundedCorners" />
+
+        <TextView
+            android:id="@+id/citydetails_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="24dp"
+            android:fontFamily="@font/nunito_sans_extrabold"
+            android:text="Agra, Uttar Pradesh"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/citydetails_image" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="24dp"
+            android:fontFamily="@font/nunito_sans_extrabold"
+            android:text="OVERVIEW"
+            android:textColor="#4942CE"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/citydetails_name" />
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="24dp"
+            android:background="?android:attr/listDivider"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/textView2"
+            app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:fontFamily="@font/nunito_sans_extrabold"
+            android:text="Description"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="@+id/divider"
+            app:layout_constraintTop_toBottomOf="@+id/divider" />
+
+        <TextView
+            android:id="@+id/citydetails_description"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="24dp"
+            android:fontFamily="@font/nunito_sans_bold"
+            android:text="Description here"
+            android:textColor="#CC000000"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/divider"
+            app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+        <Button
+            android:id="@+id/citydetails_getlocationbtn"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="24dp"
+            android:backgroundTint="#4942CE"
+            android:fontFamily="@font/nunito_sans_extrabold"
+            android:text="Get Location"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/citydetails_place1image"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="24dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/badshahi"
+            app:layout_constraintStart_toStartOf="@+id/divider2"
+            app:layout_constraintTop_toBottomOf="@+id/divider2"
+            app:shapeAppearanceOverlay="@style/ShapeableImageView_ALLRoundedCorners" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
